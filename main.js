@@ -3,7 +3,6 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const app = express();
-require('dotenv').config();
 app.use(bodyParser.json()); 
 app.use(cors())
 const port = 3001;
